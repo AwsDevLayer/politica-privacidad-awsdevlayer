@@ -41,7 +41,7 @@
   </head>
   <body>
     <h1>Política de Privacidad — Recordatorio+</h1>
-    <p class="updated">Última actualización: 17 de julio de 2026</p>
+    <p class="updated">Última actualización: 2 de octubre de 2026</p>
 
     <p>
       Esta Política de Privacidad describe cómo la aplicación móvil
@@ -57,8 +57,23 @@
       Los recordatorios que creas (título, descripción, fecha y hora) se guardan
       <strong>únicamente en el almacenamiento local de tu dispositivo</strong>
       (base de datos Room). La app no tiene servidores propios, no requiere
-      registro ni cuenta de usuario, y esta información nunca se envía a
-      nosotros ni a terceros.
+    registro ni cuenta de usuario, y nosotros (el desarrollador) nunca
+    recibimos esta información.
+    </p>
+    <p>
+        También se guardan localmente tus ajustes de la app (orden de la lista,
+        sonido y vibración de los avisos). La repetición de un recordatorio (cada
+        hora, día o intervalo que elijas) se almacena junto con él.
+    </p>
+    <p>
+        <strong>Copia de seguridad de Android:</strong> si tienes activada la
+        copia de seguridad de Android en tu dispositivo, el sistema puede guardar
+        la base de datos de tus recordatorios en tu propia cuenta de Google
+        (Google One / Copia de seguridad) para restaurarla en un teléfono nuevo.
+        Esa copia la gestiona Google según su propia política y no es accesible
+        para nosotros. Puedes desactivarla en
+        <em>Ajustes → Sistema → Copia de seguridad</em>. Los ajustes de la app y
+        el registro de diagnóstico no se incluyen en la copia.
     </p>
 
     <h2>2. Notificaciones</h2>
@@ -67,6 +82,32 @@
       (<code>POST_NOTIFICATIONS</code>) únicamente para avisarte de tus propios
       recordatorios en la fecha y hora que programaste. Este permiso es opcional
       y puedes revocarlo en cualquier momento desde los ajustes del sistema.
+    </p>
+
+    <h2>2.1. Alarmas, reinicio y batería</h2>
+    <p>
+        Para avisarte a la hora exacta, la app usa el permiso de
+        <strong>alarmas y recordatorios exactos</strong>
+        (<code>SCHEDULE_EXACT_ALARM</code>) y el permiso de
+        <strong>iniciar al arrancar el dispositivo</strong>
+        (<code>RECEIVE_BOOT_COMPLETED</code>) para volver a programar tus avisos
+        tras reiniciar el teléfono. Opcionalmente puede pedirte que excluyas la
+        app de la optimización de batería
+        (<code>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</code>) para que los avisos no
+        se retrasen en algunos fabricantes. Estos permisos se usan solo para tus
+        recordatorios; puedes denegarlos o revocarlos en los ajustes del sistema,
+        aunque los avisos podrían llegar con retraso o no llegar.
+    </p>
+    
+    <h2>2.2. Informe de diagnóstico</h2>
+    <p>
+        La app guarda en tu dispositivo un breve registro técnico (por ejemplo,
+        cuándo se programó o se mostró un aviso y el estado de los permisos) que
+        puedes consultar en la pantalla de diagnóstico. Este registro
+        <strong>no se envía automáticamente</strong>: solo sale del dispositivo si
+        tú decides compartirlo (botón "Compartir") con quien elijas, por ejemplo
+        para pedir soporte. No incluye los títulos ni las descripciones de tus
+        recordatorios; solo sus fechas, horas y estado.
     </p>
 
     <h2>3. Publicidad (Google AdMob)</h2>
@@ -120,9 +161,11 @@
 
     <h2>5. Seguridad</h2>
     <p>
-      Al almacenarse los recordatorios solo de forma local en tu dispositivo, la
-      información no viaja por internet salvo la actividad propia de la carga de
-      anuncios descrita en la sección 3.
+    Tus recordatorios se almacenan de forma local en tu dispositivo y no se
+    envían a nuestros servidores (no tenemos). La información solo viaja por
+    internet por la actividad propia de la carga de anuncios (sección 3) y, si
+    la tienes activada, por la copia de seguridad de Android gestionada por
+    Google (sección 1).
     </p>
 
     <h2>6. Cambios a esta política</h2>
@@ -133,44 +176,45 @@
     </p>
 
     <h2>
-        7. Tratamiento de datos personales y tus derechos (Ley 1581 de 2012 —
-        Colombia)
+    7. Tratamiento de datos personales y tus derechos (Ley 1581 de 2012 —
+    Colombia)
     </h2>
     <p>
-        El responsable del tratamiento de los datos descritos en esta política es
-        una persona natural (sin sociedad o empresa constituida), identificable y
-        contactable a través del correo electrónico indicado en la sección
-        "Contacto" de este documento. En Colombia, el tratamiento de datos
-        personales se rige por la <strong>Ley 1581 de 2012</strong> ("Habeas
-        Data") y su decreto reglamentario, bajo la vigilancia de la
-        <strong>Superintendencia de Industria y Comercio (SIC)</strong>.
+    El responsable del tratamiento de los datos descritos en esta política es
+    una persona natural (sin sociedad o empresa constituida), identificable y
+    contactable a través del correo electrónico indicado en la sección
+    "Contacto" de este documento. En Colombia, el tratamiento de datos
+    personales se rige por la <strong>Ley 1581 de 2012</strong> ("Habeas
+    Data") y su decreto reglamentario, bajo la vigilancia de la
+    <strong>Superintendencia de Industria y Comercio (SIC)</strong>.
     </p>
     <p>
-        De acuerdo con el artículo 8 de la Ley 1581 de 2012, como titular de tus
-        datos personales tienes derecho a:
+    De acuerdo con el artículo 8 de la Ley 1581 de 2012, como titular de tus
+    datos personales tienes derecho a:
     </p>
     <ul>
-        <li>Conocer, actualizar y rectificar tus datos personales.</li>
-        <li>Solicitar prueba de la autorización otorgada, cuando aplique.</li>
-        <li>Ser informado sobre el uso que se le ha dado a tus datos.</li>
-        <li>
-            Presentar quejas ante la Superintendencia de Industria y Comercio (SIC)
-            por infracciones a la ley.
-        </li>
-        <li>
-            Revocar la autorización y/o solicitar la supresión del dato, cuando en
-            el tratamiento no se respeten los principios, derechos y garantías
-            constitucionales y legales.
-        </li>
-        <li>Acceder de forma gratuita a tus datos personales.</li>
+    <li>Conocer, actualizar y rectificar tus datos personales.</li>
+    <li>Solicitar prueba de la autorización otorgada, cuando aplique.</li>
+    <li>Ser informado sobre el uso que se le ha dado a tus datos.</li>
+    <li>
+        Presentar quejas ante la Superintendencia de Industria y Comercio (SIC)
+        por infracciones a la ley.
+    </li>
+    <li>
+        Revocar la autorización y/o solicitar la supresión del dato, cuando en
+        el tratamiento no se respeten los principios, derechos y garantías
+        constitucionales y legales.
+    </li>
+    <li>Acceder de forma gratuita a tus datos personales.</li>
     </ul>
     <p>
-        Puedes ejercer cualquiera de estos derechos escribiendo al correo de
-        contacto indicado en este documento. Dado que los recordatorios que creas
-        se almacenan únicamente en tu dispositivo (ver sección 1), la forma más
-        directa de acceder, actualizar o suprimir esos datos es a través de las
-        funciones de edición y eliminación dentro de la propia app, o
-        desinstalando la aplicación.
+    Puedes ejercer cualquiera de estos derechos escribiendo al correo de
+    contacto indicado en este documento. Dado que los recordatorios que creas
+    se almacenan únicamente en tu dispositivo (ver sección 1), la forma más
+    directa de acceder, actualizar o suprimir esos datos es a través de las
+    funciones de edición y eliminación dentro de la propia app, o
+    desinstalando la aplicación. Si usas la copia de seguridad de Android,
+    también puedes eliminarla desde los ajustes de tu cuenta de Google.
     </p>
 
     <h2>8. Contacto</h2>
